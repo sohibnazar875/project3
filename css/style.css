@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 20px 0px;
+}
+
+.headeer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headeer .logo {
+    width: 122px;
+    height: 53px;
+}
+
+.ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.href a {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: #282B22;
+}
+
+.href a:hover {
+    background-color: #AE7B3C;
+}
+
+.brend {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.brend div {
+    /* border: 1px solid black; */
+    position: relative;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.brend .facebook {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+
+
+.brend img {
+    cursor: pointer;
+}
+
+
+.iphone {
+    /* border: 1px solid blue; */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    
+}
+
+.iphone span {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #3D4A39;
+}
+
+.iphone span:hover{
+    background-color: #AE7B3C;
+}
+
+/* header style end */
+
+.hhh {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+
+.img__bg {
+    position: absolute;
+    height: 687px;
+    /* border: 1px solid blue; */
+    width: 100%;
+}
+
+.yozuv_section {
+    /* border: 1px solid white; */
+    padding-top: 120px;
+}
+
+.yozuv_section h1 {
+    margin: 0 auto;
+    width: 446px;
+    text-align: center;
+    color: white;
+    font-family: 'Lato';
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67.2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.yozuv_section p {
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: center;
+    width: 537px;
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 50px
+}
+
+.yozuv_section button {
+    padding: 22px 56px;
+    background-color: #AE7B3C;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    border: none;
+    box-shadow: 0px 20px 25px rgba(0, 0, 0, 5%);
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.yozuv_section button:hover {
+    cursor: pointer;
+}
+
+.sectiion{
+    border-top: 1px solid rgba(255, 255, 255, 0.673);
+    margin-top: 120px;
+    margin-bottom: 45px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.korsatgich {
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.korsatgich img {
+    cursor: pointer;
+}
+
+
+.korsatgich img:active {
+    background-color: rgb(180, 178, 178);
+}
+
+.raqam {
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.raqam span {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.59);
+    border: 1px solid rgba(255, 255, 255, 0.59);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.raqam .active {
+    color: white;
+    border-color: white;
+}
+
+.raqam span:hover {
+    color: white;
+    border-color: white;
+}
+
+.asosiy h1{
+    text-align: center;
+    position: relative;
+    top: 140px;
+}
+.ooo{
+    display: flex;
+    gap: 40px;
+    position: relative;
+    top: 190px;
+}
+.color{
+    /* border: 1px solid red; */
+    background-color: #3D4A39;
+    max-width: 1598px;
+    width: 1100px;
+    height: 350px;
+    position: relative;
+    left: 55px;
+}
+
+.color h1{
+    text-align: center;
+    color: white;
+}
+
+
+.kkk{
+    display: flex;
+    gap: 285px;
+    text-align: center;
+    position: relative;
+    left: 150px;
+    top: 70px;
+}
+
+
+.lorem{
+    width: 100px;
+    height: 100px;
+
+}
+
+
+.kkk{
+    position: relative;
+    left: 100px;
+}
+
+.yozuvlar img{
+    position: relative;
+    top: 100px;
+    left: 30px;
+}
+
+.yozuvlar p{
+    width: 814px;
+    height: 141px;
+    position: relative;
+    bottom: 100px;
+    left: 330px;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.yozuvlar p img{
+    width: 160px;
+    height: 200px;
+    position: relative;
+    left: 360px;
+}
+
+.ton{
+    width: 1200px;
+    height: 178px;
+    top: 2705px;
+    left: 200px;
+    display: flex;
+    text-align: center;
+}
+
+.ppp{
+    width: 900px;
+height: 0px;
+position: relative;
+top: 100px;
+left: 123px;
+gap: 0px;
+border: 1px 0px 0px 0px;
+}
+
+.ton p {
+    width: 370px;
+height: 108px;
+top: 2740px;
+left: 370px;
+font-family: Raleway;
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+text-align: left;
+}
+.ooooo{
+    width: 370px;
+height: 108px;
+font-family: Raleway;
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+margin-left: 420px;
+}
